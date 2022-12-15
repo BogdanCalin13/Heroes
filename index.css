@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./dc.jpg");
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    color: whitesmoke;
+    display: inline-block;
+}
+
+h1 {
+    background-color: rgb(61, 52, 52);
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 0.3rem;
+    font-size: 4rem;
+}
+
+h3 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 0.3rem;
+    font-size: 2rem;
+    color: whitesmoke;
+    background-color: rgb(61, 52, 52);
+    display: inline-block;
+}
+
+p {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 0.3rem;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    background-color: rgb(61, 52, 52);
+    display: inline-block; 
+}
+
+button {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    color: whitesmoke;
+    background-color: #333;
+}
+
+button:hover {
+    color: #333;
+    background-color: whitesmoke;
+}
+
+.box {
+    font-size: 2rem;
+    color: #EFD9CE;
+    background-color: #25283D;
+    margin-top: 10rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.hide {
+    visibility: hidden;
+}
